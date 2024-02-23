@@ -84,8 +84,6 @@ $params_g = array(
     <script src="<?=Yii::$app->request->baseUrl?>/js/wavesurfer.js"></script>
     <meta name="facebook-domain-verification" content="q2ba5w3fag5agb0hvkgn7xlpgg0418" />
     <style>
-
-    
         .truncate a{
             /*color: white !important;*/
         }
