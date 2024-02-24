@@ -692,7 +692,7 @@ mt-4 */
             </div>
             <p class="mt-4 text-[15px] leading-[18px] text-5c5c5c dark:text-[#b7b7b7]">Discover curated samples sorted by moods, subgenres and artists. Updated daily.</p>
             <div class="swiper mt-5">
-               <div class="swiper-wrapper flex -mx-3 myFirstTop">
+               <div class="swiper-wrapper flex -mx-3 myFirstTop myGenre">
 								 <?php if (isset($selections_g)):?>
                  <?php foreach ($selections_g as $selection):?>
                   <?php  

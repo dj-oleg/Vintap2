@@ -1,0 +1,25 @@
+
+
+@media(min-width:320px) and (max-width:450px){
+    .myGenre{
+        min-height:531px;
+        display: grid;
+    grid-template-rows: 36% 36%;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    }
+}
+
+@media(min-width: 390px) and (max-width: 400px){
+    .myBottomBot{
+        display: flex !important;
+        flex-direction: column;
+        margin-top:-5%;
+    }
+    .myBottomBot >p {
+        display: none;
+    }
+    /*.myBottomBot:nth-child(1){*/
+    /*    display: none !important;*/
+    /*}*/
+}

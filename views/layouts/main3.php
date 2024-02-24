@@ -370,20 +370,7 @@ $params_g = array(
 
 
 
-        @media(min-width: 390px) and (max-width: 400px){
-            .myBottomBot{
-                display: flex !important;
-                /*font-size: 0;*/
-                flex-direction: column;
-                margin-top:-5%;
-            }
-            .myBottomBot >p {
-                display: none;
-            }
-            /*.myBottomBot:nth-child(1){*/
-            /*    display: none !important;*/
-            /*}*/
-        }
+      
 
     </style>
 
@@ -5704,6 +5691,7 @@ $params_g = array(
 
 
 <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br><br><small>vintapes.com</small></div></div>
+<link rel="stylesheet" href="css/main3.css">
 <script>
 
     // $(window).on('load', function () {
