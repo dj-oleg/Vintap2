@@ -1051,3 +1051,4 @@ $(".play-btn").click(function(){
 JS;
 $this->registerJs($script, yii\web\View::POS_READY);
 ?>
+<link rel="stylesheet" href="css/explore.css">
