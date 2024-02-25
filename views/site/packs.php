@@ -1276,6 +1276,8 @@ $this->registerMetaTag(['name' => 'keywords', 'content' => $meta->introtext]);
 </style>
 
 
+
+<link rel="stylesheet" href="css/packs.css">
 <?php
 $url=Url::to(['ajax/pages_packs']);
 
