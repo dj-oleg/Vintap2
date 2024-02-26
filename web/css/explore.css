@@ -1,9 +1,16 @@
 @media(min-width:320px) and (max-width:450px){
     .myGenre{
-        min-height:531px;
         display: grid;
-    grid-template-rows: 36% 36%;
+    grid-template-rows: 26% 26%;
     grid-template-columns: 50% 50%;
     margin: 0 auto;
+    }
+    .myFirstTop{
+        display: grid;
+    grid-template-rows: 29% 29% 40%;
+    grid-template-columns: 50% 50%;
+    }
+    .swiper{
+        height: 800px;
     }
 }
