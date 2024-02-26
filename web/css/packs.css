@@ -4,7 +4,7 @@
         height: 19% ;
     }
     .swiper-wrapper{
-        height: 19% ;
+        height: 24% ;
     }
 }
 
@@ -28,16 +28,26 @@
     }
 }
 
+
+@media(min-width:639px) and (max-width:773px){
+    .swiper-wrapper{
+        height: 30% ;
+    }
+}
+
 @media(min-width:774px) and (max-width:1024px){
     .swiper-slide {
         /* height: 12% ; */
     } 
     .swiper-wrapper{
-        height: 21% ;
+        height: 39% ;
     }
 
   
 }
+
+
+/* 639  774 */
 
 
 @media (max-width: 450px){
