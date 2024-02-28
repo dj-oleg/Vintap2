@@ -57,9 +57,10 @@ $this->title = 'Vintapes - samples';
                      </div>
                      <div class="mt-4">
                         <div class="truncate"><a href="<?=Url::to(['site/pack'])?>/<?=$pack['id']?>" class="text-[15px] font-medium leading-[18px] hover:underline"><?=$pack['title']?></a></div>
-                        <div class="mt-2 flex">
+                        <div class="mt-2 flex mytrend">
                            <div class="truncate pr-4 text-sm leading-[18px] text-5c5c5c dark:text-[#b7b7b7]">
-                              <a href="<?=Url::to(['site/creator'])?>/<?=$pack['creator_id']?>" class="hover:underline"><?=$pack['creator']?></a>
+                              <!-- <a href="<?=Url::to(['site/creator'])?>/<?=$pack['creator_id']?>" class="hover:underline"><?=$pack['creator']?></a> -->
+                              <a href="<?=Url::to(['site/creator'])?>/<?=$pack['creator_id']?>" class="hover:underline" style="text-align: center"><?=$pack['price']?> $</a>
                            </div>
                         </div>
                      </div>
@@ -78,7 +79,7 @@ $this->title = 'Vintapes - samples';
     ?>
                         <div class="mt-8 mb-7 h-px bg-[#f0f0f0] dark:bg-[#2e2e2e]"></div>
                         <div style="position: relative;">
-                           <div class="sticky mb-1.5 flex items-center py-1 lg:mb-6 top-[147px] lg:top-[130px] z-[31] bg-white dark:!bg-121212">
+                           <div class="sticky mb-1.5 flex items-center py-1 lg:mb-6 top-[147px] lg:top-[130px] z-[31] bg-white dark:!bg-121212 BlockFilters">
                               <h2 class="text-2xl font-medium tracking-[-0.25px] lg:mr-5 lg:text-[28px] lg:leading-8" style="display:;">Packs</h2>
                               <div aria-label="To enable filters, subscribe today!" data-microtip-position="top" show_wavs="true" class="filters-row w-full overflow-x-auto" data-v-66887fe6>
                                  <div class="pt-0.5" data-v-66887fe6>
@@ -455,6 +456,7 @@ $this->title = 'Vintapes - samples';
                                    <?=$this->context->packs_html3($sounds)?>
                                    <?php endif; ?>
                                 </div>
+                                
                                  <!--</tbody>
                               </table>-->
 
@@ -577,7 +579,9 @@ $this->title = 'Vintapes - samples';
  </div>
 </div>
  <!--/modal buy-->
-
+ 
+ <link rel="stylesheet" href="https://vintapes.com/css/packs.css">
+ <link rel="stylesheet" href="https://vintapes.com/css/samples.css">
 <?php
 $this->registerJsFile(Yii::$app->request->baseUrl . '/js/filters_sound.js', ['depends' => [yii\web\JqueryAsset::className()]]);
 ?>

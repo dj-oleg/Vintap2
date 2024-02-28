@@ -1,0 +1,25 @@
+@media(max-width:399px){
+    .swiper-wrapper{
+        overflow-y: hidden;
+    }
+
+}
+
+@media (max-width: 450px){
+    .swiper-slide {
+        min-width: 119px;
+        margin: 3px 1px;
+    }
+}
+.mytrend {
+    justify-content: center;
+}
+.BlockFilters{
+    margin-bottom: 5%;
+}
+
+@media (min-width: 320px) and (max-width: 773px){
+    .swiper-wrapper {
+        height: 28%;
+    }
+}
